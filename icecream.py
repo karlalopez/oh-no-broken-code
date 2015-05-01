@@ -5,7 +5,6 @@ all_flavors = ['chocolate', 'mint', 'strawberry', 'caramel', 'pecan',
 my_faves    = ['mint', 'caramel']
 
 
-for item in my_list:
-    if my_faves:
+for item in my_faves:
+    if item in my_faves:
         print "I like {}".format(item)
-
